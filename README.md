@@ -24,7 +24,7 @@ The repository contains the following files in alphabetical order:
 ### Replication
 
 The code can be run on your computer by installing an environment in which to use Jupyter Notebook (VSCode, Anaconda, Jupyter Notebook etc.) alongside the dependencies required, by installing the required Python packages in your environment using your environment's equivalent of
-```python
+```shell
 pip install matplotlib pandas numpy scikit-learn seaborn scikit-optimize
 ```
 and by running the codes in `kv-data-cleanup.ipynb` and `modelling.ipynb` for the respective sub-tasks.
