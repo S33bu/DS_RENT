@@ -10,7 +10,7 @@ Our goal is to create a predictive model with an RSME (Root Mean Square Error) o
 
 ### Repository
 
-The repository contains the following files in alphabetical order:
+The repository contains the following files (in alphabetical order):
 * `B7_report.pdf` - a report stating our business and data mining goals, data mining progress and goals and the plan for the project.
 * `README.md` - the file you're reading right now.
 * `cleaned_data.csv` - a data file created after the cleanup done in `kv-data-cleanup.ipynb`.
