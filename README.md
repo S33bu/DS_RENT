@@ -17,7 +17,7 @@ The repository contains the following files (in alphabetical order):
 * `corr_heatmap.pdf` and `corr_heatmap.png` - a feature correlation heatmap image which we used in our initial project poster, but then replaced.
 * `importance.pdf` and `importance.png` - an image showing the ten most important features used by the final Gradient Boosting model, Figure 2 in the poster. This file didn't want to export properly, which is why the PDF version is cut off.
 * `kv-data-cleanup.ipynb` - the main Jupyter Notebook file where almost all of the data cleanup, postprocessing and feature engineering happened.
-* `kv-rent-data-16-11-2024.csv` - data scraped from the [KV.ee](https://www.kv.ee/) website on November 16th 2024 using the [Web Scraper extension](https://webscraper.io/); the initial dataset for our model.
+* `kv-rent-data-16-11-2024.csv` - data scraped from the [KV.ee](https://www.kv.ee/) website on November 16th 2024 using the [Web Scraper extension](https://webscraper.io/); the uncleaned dataset for our model.
 * `kv_map.png` - an illustrative image of listings in Tallinn from [KV.ee's map search](https://www.kv.ee/#/search/map?deal_type=2), Figure 1 in the poster.
 * `modelling.ipynb` - the Jupyter notebook where final touches (filling in NaN values, correlation checking) were done and where models were tested and tuned.
 * `modelling_improved_visualisations.ipynb` - a copy of `modelling.ipynb`, which contains visualisations that were better matched with our poster's colour scheme and spacing.
