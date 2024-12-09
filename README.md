@@ -35,6 +35,6 @@ pip install matplotlib pandas numpy scikit-learn seaborn scikit-optimize
 ```
 4. Run the codes in `kv-data-cleanup.ipynb` and `modelling.ipynb` for the respective sub-tasks.
 
-The data could be gathered again by copying the text in `web-scraper-sitemap.txt` into the [Web Scraper Extension's](https://webscraper.io/) "Import sitemap" tab.
+The data could be gathered again by copying the text in `web-scraper-sitemap.txt` into the [Web Scraper Extension's](https://webscraper.io/) "Import sitemap" tab and re-running the scraper.
 
 The poster visualisations can be recreated using `modelling_improved_visualisations.ipynb`. 
