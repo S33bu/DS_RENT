@@ -12,7 +12,6 @@ Our goal is to create a predictive model with an RMSE (Root Mean Square Error) o
 
 The repository contains the following files (in alphabetical order):
 * `B7_report.pdf` - a report stating our business and data mining goals, data mining progress and goals and the plan for the project.
-* `README.md` - the file you're reading right now.
 * `cleaned_data.csv` - a data file created after the cleanup done in `kv-data-cleanup.ipynb`.
 * `corr_heatmap.pdf` and `corr_heatmap.png` - a feature correlation heatmap image which we used in our initial project poster, but then replaced.
 * `importance.pdf` and `importance.png` - an image showing the ten most important features used by the final Gradient Boosting model, Figure 2 in the poster. This file didn't want to export properly, which is why the PDF version is cut off.
@@ -22,6 +21,8 @@ The repository contains the following files (in alphabetical order):
 * `modelling.ipynb` - the Jupyter notebook where final touches (filling in NaN values, correlation checking) were done and where models were tested and tuned.
 * `modelling_improved_visualisations.ipynb` - a copy of `modelling.ipynb`, which contains visualisations that were better matched with our poster's colour scheme and spacing.
 * `performance_comparison.pdf` and `performance_comparison.png` - an image showing the performance of various models (ranked by RMSE) with our dataset.
+* `Poster-CMYK.pdf` and `Poster-RGB.pdf` - the presentation poster in both CMYK and RGB colour models.
+* `README.md` - the file you're reading right now.
 * `web-scraper-sitemap.txt` - a plaintext copy of the [Web Scraper](https://webscraper.io/) sitemap configuration used to gather all listings from [KV.ee](https://www.kv.ee/). 
 
 ### Replication
