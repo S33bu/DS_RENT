@@ -6,7 +6,7 @@
 
 The real estate market in Estonia, particularly in cities like Tallinn and Tartu, has seen significant growth and fluctuation in recent years. With the increasing demand for rental properties, both landlords and tenants face challenges in determining fair rental prices. The project aims to analyse and model long-term apartment rental listings from the Estonian real estate sale and rental site [KV.ee](https://www.kv.ee/).
 
-Our goal is to create a predictive model with an RSME (Root Mean Square Error) of 50€ to be within ±15% of most rental listings.
+Our goal is to create a predictive model with an RMSE (Root Mean Square Error) of 50€ to be within ±15% of most rental listings.
 
 ### Repository
 
@@ -21,7 +21,7 @@ The repository contains the following files (in alphabetical order):
 * `kv_map.png` - an illustrative image of listings in Tallinn from [KV.ee's map search](https://www.kv.ee/#/search/map?deal_type=2), Figure 1 in the poster.
 * `modelling.ipynb` - the Jupyter notebook where final touches (filling in NaN values, correlation checking) were done and where models were tested and tuned.
 * `modelling_improved_visualisations.ipynb` - a copy of `modelling.ipynb`, which contains visualisations that were better matched with our poster's colour scheme and spacing.
-* `performance_comparison.pdf` and `performance_comparison.png` - an image showing the performance of various models with our dataset.
+* `performance_comparison.pdf` and `performance_comparison.png` - an image showing the performance of various models (ranked by RMSE) with our dataset.
 * `web-scraper-sitemap.txt` - a plaintext copy of the [Web Scraper](https://webscraper.io/) sitemap configuration used to gather all listings from [KV.ee](https://www.kv.ee/). 
 
 ### Replication
